@@ -221,5 +221,98 @@ header {
     color: var(--second-color)
 }
 
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.delivery-img, .app-img {
+    flex: 1 1 21rem;
+}
+
+.delivery-text, .app-text {
+    flex: 1 1 21rem;
+}
+
+.delivery-text h2, .app-text h2 {
+    font-size: 1.2rem;
+    color: var(--second-color);
+}
+
+.delivery-text p, .app-text p {
+    margin: 0.5rem 0 1rem;
+    text-align: justify;
+}
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    background: #ebdbc8;
+    gap: 1.5rem;
+}
+
+.about-img {
+    flex: 1 1 17rem;
+}
+
+.about-text {
+    flex: 1 1 17rem;
+}
+
+.about-text h2 {
+    font-size: 1.2rem;
+    color: var(--second-color);
+}
+
+.about-text p {
+    margin: 0.5rem 0 1rem;
+    text-align: justify;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social a {
+    font-size: 27px;
+    margin: 0.5rem;
+}
+
+.social a .bx {
+    padding: 5px;
+    color: white;
+    background: black;
+    border-radius: 50%;
+}
+
+.social a .bx:hover {
+    background: var(--main-color);
+}
+
+.links {
+    margin: 1rem 0 1rem;
+}
+
+.links a {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--second-color);
+    padding: 1rem;
+}
+
+.links a:hover {
+    color: var(--main-color);
+}
+
+.contact p {
+    text-align: center;
+    
+}
+
+
 
 
